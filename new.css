@@ -4,7 +4,7 @@ body, html {
     height: 100%;
     min-width: 1000px; 
     min-height: 1000px;
-
+    font-family: 'Questrial', sans-serif;
 }
 
 .navbar {
@@ -12,7 +12,6 @@ body, html {
     width: 338px;
     height: 24px;
 
-    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -79,8 +78,6 @@ body, html {
     height: 33px;
     top:40%;
     left:5%;
-
-    font-family: Questrial;
     font-style: normal;
     font-weight: normal;
     font-size: 128px;
@@ -95,8 +92,6 @@ body, html {
     height: 36px;
     top:60%;
     left:5%;
-
-    font-family: Questrial;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -119,7 +114,6 @@ body, html {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-family: Questrial;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -230,7 +224,6 @@ body, html {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
- 
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
