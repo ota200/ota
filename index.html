@@ -14,9 +14,30 @@
 </style>
 
 <body>
+	<!-- Top Navigation Menu -->
+	<div class="topnav">
 
-    <h1 class="text">HI TEST</h1>
 
+		<div id="myLinks">
+			<a href="#news">News</a>
+			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+		</div>
+
+	</div>
+	<div href="javascript:void(0);" onclick="myFunction()">
+		<h1 class= "text" style="left:20%;" >OTA</h1>
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myLinks");
+		  if (x.style.display === "block") {
+			x.style.display = "none";
+		  } else {
+			x.style.display = "block";
+		  }
+		}
+		</script>
 </body>
 
 </html>
