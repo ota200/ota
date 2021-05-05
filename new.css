@@ -1,9 +1,6 @@
 body{
     background-color: #292A30;
-    width: 100%; 
-    height: 100%;
-    min-width: 1000px; 
-    min-height: 1000px;
+
     font-family: 'Rubik', sans-serif;
 }
 
@@ -18,15 +15,33 @@ body{
     text-shadow: -1px -2px 30px rgba(0, 0, 0, 0.411);
 }
 
+.menu {
+	border: 6px solid green;
+	width: 60px;
+	height: 10%;
+	position: absolute;
+	margin-left: -3px;
+	top: 10%;
+	left:90%;
+}
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .menu {
+	left:80%;
+  }
+}
 
 .topnav {
     overflow: hidden;
     position: relative;
+
   }
   
   .topnav #myLinks {
     display: none;
+	position: relative;
+	left:50%;
   }
   
   .topnav a {
@@ -37,13 +52,7 @@ body{
     font-size: 17px;
   }
   
-  .topnav a.icon {
-    float: right;
-  }
-  
-  .topnav a:hover {
-    color: black;
-  }
+
   
 
 
