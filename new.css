@@ -33,24 +33,27 @@ body{
 }
 
 .topnav {
-    overflow: hidden;
-    position: relative;
+  overflow: hidden;
+  position: absolute;
+  left:90%;
 
-  }
-  
-  .topnav #myLinks {
-    display: none;
-	position: relative;
-	left:50%;
-  }
-  
-  .topnav a {
-    float: left;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+}
+
+.topnav #myLinks {
+  display: none;
+  left:90%;
+
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+
   
 
   
