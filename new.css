@@ -1,3 +1,4 @@
+
 body{
     background-color: #292A30;
 
@@ -25,40 +26,36 @@ body{
 	left:90%;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .menu {
-	left:80%;
-  }
-}
-
 .topnav {
-  overflow: hidden;
-  position: absolute;
-  left:90%;
-
+	overflow: hidden;
+	position: relative;
+	left: 90%;
+	width:10%;
 }
 
 .topnav #myLinks {
-  display: none;
-  left:90%;
-
+	display: none;
 }
 
 .topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
+	color: white;
+	padding:20% 0;
+	text-decoration: none;
+	font-size: 100%;
+	display: block;
+	border-width:10%;
+	border-color:rgb(235, 235, 235);
+
 }
 
 
-  
+@media only screen and (max-width: 768px) {
+	.menu {
+		left:80%;
+	}
 
-  
-
-
-
-
-
+	.topnav {
+		left: 80%;
+		width:20%;
+	}
+}
