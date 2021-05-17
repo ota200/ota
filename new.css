@@ -43,6 +43,18 @@ body{
 	display: inline-block;
 	position: absolute;
 	left: 80%;
+}
+
+#back {
+
+	display: none;
+	color: rgba(230, 230, 230, 0.562);
+	border: none;
+	background-color:rgb(76, 93, 134) ;
+	display: none;
+	z-index: 2;
+	position: absolute;
+	
 
 }
 
