@@ -26,18 +26,25 @@ li, a{
 
 h1 {
 	font-family: 'Aleo', serif;
-	font-size: 54px;
+	font-size:220px;
 	font-weight: 300; 
 	color:rgb(255, 255, 255);
 	text-decoration: none;
 	text-align: center;
-	padding: 2%;
 	background-color: none;
 
 }
 
+h1 p{
+	font-size: 63px;
+	color: #3A6977;
+}
+
 header h1{
 	background-color: #56B6C2;
+	padding: 2%;
+	font-size:52px;
+
 
 }
 
