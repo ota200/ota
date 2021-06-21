@@ -55,9 +55,10 @@ div h a{
 }
 
 
-div a {
+div p {
 	color: rgb(255,255,255);
 	font-family: 'Roboto',Regular;
+	font-size: 3rem;
 }
 
 
