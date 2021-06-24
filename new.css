@@ -91,3 +91,9 @@ div p {
 	display: flex;
 	justify-content: center;
 }
+
+.icons button{
+	display: flex;
+	justify-content: center;
+	width: 6rem;
+}
