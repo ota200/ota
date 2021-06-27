@@ -12,7 +12,7 @@
 header{
 	display: flex;
 	justify-content: space-between;
-	padding: 1% 4%;
+	padding: 1vw 4vw;
 	background-color: #56B6C2;
 }
 
@@ -27,7 +27,7 @@ header h1{
 
 h1 {
 	font-family: 'Aleo', serif;
-	font-size:13.75rem;
+	font-size:13.75vw;
 	font-weight: 300; 
 	color:rgb(255, 255, 255);
 	text-decoration: none;
