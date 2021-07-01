@@ -12,7 +12,7 @@
 header{
 	display: flex;
 	justify-content: space-between;
-	padding: 1vw 4vw;
+	padding: 1rem 4rem;
 	background-color: #56B6C2;
 }
 
@@ -27,7 +27,7 @@ header h1{
 
 h1 {
 	font-family: 'Aleo', serif;
-	font-size:13.75vw;
+	font-size:13.75rem;
 	font-weight: 300; 
 	color:rgb(255, 255, 255);
 	text-decoration: none;
@@ -66,7 +66,6 @@ div p {
 	font-family: 'Roboto',Regular;
 	font-size: 3rem;
 }
-
 
 .nav{
 	list-style:none;
