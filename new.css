@@ -1,89 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 *{
     background-color: #282C34;
 	box-sizing: border-box;
 	margin:0;
-	padding:0;
+	padding:0;	
 }
 
-header{
-	display: flex;
-	justify-content: space-between;
-	padding: 1rem 4rem;
-	background-color: #56B6C2;
+body {
+	font-family: 'Aleo';
 }
-
-header h1{
-	padding: 2%;
-	font-size:3.35rem;
-	background-color: #56B6C2;
-}
-
-
-
-
-h1 {
-	font-family: 'Aleo', serif;
-	font-size:13.75rem;
-	font-weight: 300; 
-	color:rgb(255, 255, 255);
-	text-decoration: none;
-	text-align: center;
-}
-
-h1 p{
-	font-size: 63px;
-	color: #3A6977;
-}
-
-h1 a{
-	color:rgb(255, 255, 255);
-
-	background-color: #56B6C2;
-	text-decoration: none;
-}
-
-
-h{ 
-	font-size: 63px;
-	color: rgb(255,255,255);
-	font-family: 'Roboto',Regular;
-}
-
-
-
-div h a{
-	font-size: 4rem;
-	font-family: 'Aleo', serif;
-}
-
-
-div p {
-	color: rgb(255,255,255);
-	font-family: 'Roboto',Regular;
-	font-size: 3rem;
-}
-
-.nav{
-	list-style:none;
-	font-family: 'Roboto',Regular;
-	font-size: 2.8rem;
-	background-color: #56B6C2;
-}
-
-.nav li{
-	background-color: #56B6C2;
-	display: inline-block;
-	padding:38px;
-}
-
-.nav li a{
-	background-color: #56B6C2;
-	text-decoration: none;
-	color:rgb(0, 0, 0);
-}
-
-
