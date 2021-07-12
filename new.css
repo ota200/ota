@@ -10,4 +10,16 @@
 
 body {
 	font-family: 'Aleo';
+	background-color: #282C34;
+
+}
+
+button{
+	border-radius:13px 0px 13px 0px;
+	width: 20rem;
+}
+
+#btn_1{
+	box-sizing: border-box;
+
 }
