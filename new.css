@@ -43,6 +43,12 @@ body {
 	top:-280%;
 }
 
+
+
+.text-center h1{
+	font-size:4.5rem;
+}
+
 @media only screen and (max-width: 600px) {
 	
 	#holder{
