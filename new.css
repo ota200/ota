@@ -13,7 +13,6 @@ body {
 	height: 100%;
 }
 
-
 .btn{
 	width:20rem;
 	font-weight: bold;
@@ -30,15 +29,32 @@ body {
 	color:#56B6C2;
 }
 
-
+#holder{
+	position: absolute;
+	top:20%;
+	left:5%;
+}
 
 .text{
 	position: fixed;
 	z-index: -1;
 	color:#2D3137;
 	transform: rotate(-45deg);
-	width:100rem;
-	content:"OTA 34354657";
-	left:-30%;
-	top:-30%;
+	top:-280%;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	#holder{
+		position: absolute;
+		top:20%;
+	}
+
+	.text{
+		position: fixed;
+		z-index: -1;
+		color:#2D3137;
+		transform: rotate(-45deg);
+		top:-100%;
+	}
 }
