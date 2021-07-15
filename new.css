@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
-    background-color: #282C34;
 	box-sizing: border-box;
 	margin:0;
 	padding:0;	
@@ -11,15 +10,35 @@
 body {
 	font-family: 'Aleo';
 	background-color: #282C34;
-
+	height: 100%;
 }
 
-button{
+
+.btn{
+	width:20rem;
+	font-weight: bold;
 	border-radius:13px 0px 13px 0px;
-	width: 20rem;
 }
 
 #btn_1{
-	box-sizing: border-box;
+	background:#56B6C2;
+}
 
+#btn_2{
+	border-width: 0.1rem;
+	border-color: #56B6C2;
+	color:#56B6C2;
+}
+
+
+
+.text{
+	position: fixed;
+	z-index: -1;
+	color:#2D3137;
+	transform: rotate(-45deg);
+	width:100rem;
+	content:"OTA 34354657";
+	left:-30%;
+	top:-30%;
 }
