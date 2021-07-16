@@ -43,10 +43,12 @@ body {
 	top:-280%;
 }
 
-
-
-.text-center h1{
-	font-size:4.5rem;
+.text-2{
+	position: fixed;
+	z-index: -1;
+	color:#2D3137;
+	transform: rotate(-45deg);
+	top:-555%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -56,11 +58,11 @@ body {
 		top:20%;
 	}
 
-	.text{
+	.text-2{
 		position: fixed;
 		z-index: -1;
 		color:#2D3137;
 		transform: rotate(-45deg);
-		top:-100%;
+		top:-700%;
 	}
 }
