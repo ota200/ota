@@ -1,6 +1,8 @@
 const word = "About Me"
-var ab = document.getElementById("text").innerHTML = `${"About Me".repeat(2000)}`;
+document.getElementById("word").innerHTML = word.repeat(2000);
 
-function a(){
+
+function about(){
     window.location.href='about.html'
 }
+

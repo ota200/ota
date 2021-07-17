@@ -30,9 +30,8 @@ body {
 }
 
 #holder{
-	position: absolute;
-	top:20%;
-	left:5%;
+	position: relative;
+	margin-top:10%;
 }
 
 .text{
@@ -53,10 +52,6 @@ body {
 
 @media only screen and (max-width: 600px) {
 	
-	#holder{
-		position: absolute;
-		top:20%;
-	}
 
 	.text-2{
 		position: fixed;
