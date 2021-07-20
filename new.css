@@ -13,6 +13,12 @@ body {
 	height: 100%;
 }
 
+#body_nobg{
+	font-family: 'Aleo';
+	background: none;
+	height: 0%;	
+}
+
 #about{
 	background-image: url(images/a.svg);
 	background-repeat: no-repeat;
