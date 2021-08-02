@@ -57,6 +57,17 @@ body {
 	left:10%;
 }
 
+#link_btn{
+	width:5rem;
+	height:5rem;
+	background-color:rgba(0, 30, 3, 0);
+	border-color: rgba(0, 30, 3, 0);
+}
+
+#link_btn img{
+	width:5rem;
+	height:5rem;
+}
 
 @media only screen and (max-width: 375px) {
 	#btn{
