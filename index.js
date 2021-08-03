@@ -11,3 +11,10 @@ function index(){
     window.location.href='index.html'
 }
 
+function work(){
+    window.location.href='working.html'
+}
+
+function work(){
+    window.location.href='working.html'
+}
