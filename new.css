@@ -46,7 +46,7 @@ body {
 
 #holder{
 	position: relative;
-	margin-top:10%;
+	padding-top: min(30vw,400rem);
 }
 
 
