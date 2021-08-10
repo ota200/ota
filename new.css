@@ -9,79 +9,47 @@
 
 body {
 	font-family: 'Aleo';
-	background-color: #282C34;
+	background-color: rgb(255, 255, 255);
 	height: 100%;
 }
 
-#body_nobg{
-	font-family: 'Aleo';
-	background: none;
-	height: 0%;	
+#c{
+	width:95vw;
+	height:90vh;
+	position:relative;
+	margin-top: 5vh;
+	border-radius: 2.5rem;
+	background-color: rgb(15, 15, 15)
 }
 
-#about{
-	background-image: url(images/a.svg);
-	background-repeat: no-repeat;
+ul{
+	list-style-type: none;
 }
 
-#ota{
-	background-image: url(images/ota.svg);
+li{
+	display: inline-block;
+	font-size:1.5rem;
+	color:white;
+	padding-right: 3rem;
+	padding-top:2rem;
 }
 
-.btn{
-	width:20rem;
-	font-weight: bold;
-	border-radius:13px 0px 13px 0px;
+#text{
+	display: inline-block;
+	padding-top:10vw;
+	padding-left: 10vw;
 }
 
-#btn_1{
-	background:#56B6C2;
+h1{
+	font-size:12rem;
+	color:rgba(255, 255, 255, 0.959);
 }
 
-#btn_2{
-	border-width: 0.1rem;
-	border-color: #56B6C2;
-	color:#56B6C2;
-}
+p{
+	color:white;
+	font-size:3rem;
 
-#holder{
-	position: relative;
-	padding-top: min(30vw,400rem);
 }
 
 
-#arrow{
-
-	border: 0px;
-	background-color:rgba(0, 30, 3, 0);
-	left:10%;
-}
-
-#link_btn{
-	width:5rem;
-	height:5rem;
-	background-color:rgba(0, 30, 3, 0);
-	border-color: rgba(0, 30, 3, 0);
-}
-
-#link_btn img{
-	width:5rem;
-	height:5rem;
-}
-
-#OTA{
-	
-}
-
-@media only screen and (max-width: 375px) {
-	#btn{
-
-		margin-left:20%;
-	}
-	#b{
-
-		margin-left:10%;
-	}
-
-}	
 
