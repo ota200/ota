@@ -52,20 +52,21 @@ li a:hover{
 	display: inline-block;
 	padding-top:10vw;
 	padding-left: 10vw;
+	width:50vw;
 }
 
 h1{
-	font-size:12rem;
+	font-size:9rem;
 }
 
 p{
-	font-size:3rem;
+	font-size:4.5rem;
 }
 
 #nav{
 	z-index: -100;
 	display: inline-block;
-	position:relative;
+	position:absolute;
 	top:10%;
 	left:80%;
 	width:10vw;
@@ -95,6 +96,23 @@ p{
 		height: max(90vh,50rem);
 		border-radius: 2.5rem;
 		background-color: #282C34;
+	}
+
+	#text{
+		display: inline-block;
+		padding-top:10vw;
+		padding-left: 10vw;
+		width:100vw;
+		position:relative;
+
+	}
+
+	h1{
+		font-size:7rem;
+	}
+	
+	p{
+		font-size:3rem;
 	}
 
 }
