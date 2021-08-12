@@ -14,12 +14,11 @@ body {
 }
 
 #c{
-	display: flex;
-	position:relative;
-	margin-top: 3vh;
-	margin-left: 2vw;
-	width: 91vw;
-	height: 91vh;
+	position: relative;
+	top: 5vh;
+	left: 5vw;
+	width: max(91vw,25rem);
+	height: max(91vh,50rem);
 	border-radius: 2.5rem;
 	background-color: rgb(15, 15, 15);	
 }
@@ -53,47 +52,3 @@ p{
 
 }
 
-@media screen and (max-width: 600px) {
-
-	#c{
-		position:relative;
-		border-radius: 2.5rem;
-		background-color: rgb(15, 15, 15);
-		width:30rem;	
-		height:46rem;
-		margin-top: 3rem;
-		margin-left: 2rem;
-
-	}
-
-}
-
-@media screen and (max-width: 380px) {
-
-	#c{
-		position:relative;
-		border-radius: 2.5rem;
-		background-color: rgb(15, 15, 15);
-		width:30rem;	
-		height: 53rem;
-		margin-top: 3rem;
-		margin-left: 2rem;
-
-	}
-
-}
-
-@media screen and (max-width: 380px) {
-
-	#c{
-		position:relative;
-		border-radius: 2.5rem;
-		background-color: rgb(15, 15, 15);
-		width:30rem;	
-		height: 63rem;
-		margin-top: 3rem;
-		margin-left: 2rem;
-
-	}
-
-}
