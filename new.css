@@ -11,6 +11,7 @@ body {
 	font-family: 'Aleo';
 	background-color: rgb(255, 255, 255);
 	height: 100%;
+	color:#BFC2C8;
 }
 
 #c{
@@ -20,19 +21,31 @@ body {
 	width: max(91vw,25rem);
 	height: max(90vh,50rem);
 	border-radius: 2.5rem;
-	background-color: rgb(15, 15, 15);	
+	background-color: #282C34;
 }
+
 
 ul{
 	list-style-type: none;
+	text-align: center;
+	visibility: visible;
+
 }
 
 li{
 	display: inline-block;
-	font-size:1.5rem;
-	color:white;
+	font-size:max(3vw,1.5rem);
 	padding-right: 3rem;
 	padding-top:2rem;
+}
+
+li a{
+	text-decoration:none;
+	color:#BFC2C8;
+}
+
+li a:hover{
+	color:white;
 }
 
 #text{
@@ -43,24 +56,45 @@ li{
 
 h1{
 	font-size:12rem;
-	color:rgba(255, 255, 255, 0.959);
 }
 
 p{
-	color:white;
 	font-size:3rem;
-
 }
 
-@media (max-width:600){
+#nav{
+	z-index: -100;
+	display: inline-block;
+	position:relative;
+	top:10%;
+	left:80%;
+	width:10vw;
+}
+
+@media only screen and (max-width: 600px){
+
+	#show{
+		visibility: hidden;
+	}
+
+	h1{
+		font-size:10rem;
+	}
+	
+	#nav{
+		z-index: 100;
+		display: inline-block;
+		position:relative;
+	}
 
 	#c{
 		position: relative;
 		top: 5vh;
-		left: 6vw;
+		left: 3vw;
 		width: max(91vw,25rem);
-		height: max(91vh,50rem);
+		height: max(90vh,50rem);
 		border-radius: 2.5rem;
-		background-color: rgb(15, 15, 15);	
+		background-color: #282C34;
 	}
+
 }
