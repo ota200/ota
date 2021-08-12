@@ -18,7 +18,7 @@ body {
 	top: 5vh;
 	left: 5vw;
 	width: max(91vw,25rem);
-	height: max(91vh,50rem);
+	height: max(90vh,50rem);
 	border-radius: 2.5rem;
 	background-color: rgb(15, 15, 15);	
 }
@@ -52,3 +52,15 @@ p{
 
 }
 
+@media (max-width:600){
+
+	#c{
+		position: relative;
+		top: 5vh;
+		left: 6vw;
+		width: max(91vw,25rem);
+		height: max(91vh,50rem);
+		border-radius: 2.5rem;
+		background-color: rgb(15, 15, 15);	
+	}
+}
