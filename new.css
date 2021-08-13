@@ -72,6 +72,13 @@ p{
 	width:10vw;
 }
 
+#img{
+	width:30vw;
+	border-radius: 2.5rem;
+	position:relative;
+	bottom:20vh;
+}
+
 @media only screen and (max-width: 600px){
 
 	#show{
@@ -101,7 +108,7 @@ p{
 	#text{
 		display: inline-block;
 		padding-top:10vw;
-		padding-left: 10vw;
+		padding-left: 13%;
 		width:100vw;
 		position:relative;
 
@@ -113,6 +120,15 @@ p{
 	
 	p{
 		font-size:3rem;
+	}
+
+	#img{
+		width:20rem;
+		border-radius: 2.5rem;
+		position:relative;
+		top:15vh;
+		left:10vw;
+
 	}
 
 }
