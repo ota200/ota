@@ -9,9 +9,31 @@
 
 body {
 	font-family: 'Aleo';
-	background-color: rgb(255, 255, 255);
+	background-color:  #001122;
 	height: 100%;
-	color:#BFC2C8;
+	color:  #e8effb;
+    animation-name: ex;
+    animation-duration: 2s;
+}
+
+@keyframes ex {
+    from {color: rgba(4,7,7,0);}
+    to {color:  #e8effb;}
+}
+
+@keyframes nav {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes blob1 {
+    from { left: 30rem;}
+    to{ left: 5rem;}
+}
+
+@keyframes blob2 {
+    from { left: -35rem;}
+    to{ left: -15rem;}
 }
 
 #c{
@@ -29,7 +51,6 @@ ul{
 	list-style-type: none;
 	text-align: center;
 	visibility: visible;
-
 }
 
 li{
@@ -63,13 +84,17 @@ p{
 	font-size:4.5rem;
 }
 
+
 #nav{
-	z-index: -100;
+
 	display: inline-block;
-	position:absolute;
-	top:10%;
-	left:80%;
-	width:10vw;
+	position: absolute;
+	margin-top: 5%;
+	left: 80%;
+	width: 10vw;
+    height: 3rem;
+    animation-name: nav;
+    animation-duration: 2s
 }
 
 #img{
@@ -77,6 +102,30 @@ p{
 	border-radius: 2.5rem;
 	position:relative;
 	bottom:20vh;
+}
+
+#blob{
+
+    position: fixed;
+    z-index: -100;
+    width: 30rem;
+    height: auto;
+    
+}
+
+.blob-1{
+    left: 5rem;
+    animation-name: blob1;
+    animation-duration: 1s;
+}
+
+.blob-2{
+    left: -15rem; 
+    top: 16rem; 
+    transform: rotate(30deg); 
+    width: 32rem;
+    animation-name: blob2;
+    animation-duration: 0.9s;
 }
 
 @media only screen and (max-width: 600px){
