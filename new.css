@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 
 *{
 	box-sizing: border-box;
@@ -9,174 +11,104 @@
 
 body {
 	font-family: 'Aleo';
-	background-color:  #001122;
-	height: 100%;
-	color:  #e8effb;
-    animation-name: ex;
-    animation-duration: 2s;
+	background-color:  #F4F8F8;
+	width: 500%;
+  color:#000000;
+
 }
 
-@keyframes ex {
-    from {color: rgba(4,7,7,0);}
-    to {color:  #e8effb;}
-}
-
-@keyframes nav {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes blob1 {
-    from { left: 30rem;}
-    to{ left: 5rem;}
-}
-
-@keyframes blob2 {
-    from { left: -35rem;}
-    to{ left: -15rem;}
-}
-
-#c{
-	position: relative;
-	top: 5vh;
-	left: 5vw;
-	width: max(91vw,25rem);
-	height: max(90vh,50rem);
-	border-radius: 2.5rem;
-	background-color: #282C34;
+a{
+  font-family: 'Zilla Slab', serif;
+  position: fixed;
+  font-size: 2.5rem;
+  padding-left: 3rem; 
+  padding-top: 2rem;
+  text-decoration: none;
 }
 
 
-ul{
-	list-style-type: none;
-	text-align: center;
-	visibility: visible;
+.left{
+  margin-left: 83vw;
+  color: #E3170A;
 }
 
-li{
-	display: inline-block;
-	font-size:max(3vw,1.5rem);
-	padding-right: 3rem;
-	padding-top:2rem;
+.bottom{
+  margin-top: 80vh;
+  color: #000022;
 }
 
-li a{
-	text-decoration:none;
-	color:#BFC2C8;
-}
-
-li a:hover{
-	color:white;
-}
-
-#text{
-	display: inline-block;
-	padding-top:10vw;
-	padding-left: 10vw;
-	width:50vw;
+.center{
+  position:absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1{
-	font-size:9rem;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 6rem;
 }
 
 p{
-	font-size:4.5rem;
+  font-family: 'Archivo', sans-serif;
+  font-size: 2rem;
 }
 
-
-#nav{
-
-	display: inline-block;
-	position: absolute;
-	margin-top: 5%;
-	left: 80%;
-	width: 10vw;
-    height: 3rem;
-    animation-name: nav;
-    animation-duration: 2s
+span{
+  font-family: 'Archivo', sans-serif;
+  font-size: 1.5rem;
+  
 }
 
-#img{
-	width:30vw;
-	border-radius: 2.5rem;
-	position:relative;
-	bottom:20vh;
+header{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2rem;
+  color: #FFE066;
 }
 
-#blob{
+.marquee{
+  position: relative;
+  left: -5rem;
+  top: 100vh;
+  width: 100%;
 
-    position: fixed;
-    z-index: -100;
-    width: 30rem;
-    height: auto;
-    
 }
 
-.blob-1{
-    left: 5rem;
-    animation-name: blob1;
-    animation-duration: 1s;
+.marquee header{
+  font-size: 5rem;
+  color: #E3170A;
+  text-overflow: ellipsis;
+  position: fixed;
 }
 
-.blob-2{
-    left: -15rem; 
-    top: 16rem; 
-    transform: rotate(30deg); 
-    width: 32rem;
-    animation-name: blob2;
-    animation-duration: 0.9s;
+.about {
+  margin-top: 100vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  position: absolute;
+  margin-left:6vw;
+  grid-gap: 5rem;
 }
 
-@media only screen and (max-width: 600px){
+.about img{
+  width: 90%;
+  height: auto;
+  box-shadow: 0px 4px 10px 8px rgba(0, 0, 0, 0.25);
+}
 
-	#show{
-		visibility: hidden;
-	}
+.about h1{
+  font-size: 3.5rem;
+  width:65%;
+  text-align: center;
+  padding-left: 6rem;
+}
 
-	h1{
-		font-size:10rem;
-	}
-	
-	#nav{
-		z-index: 100;
-		display: inline-block;
-		position:relative;
-	}
+.square{
+  width:5rem;
+  height:auto;
+}
 
-	#c{
-		position: relative;
-		top: 5vh;
-		left: 3vw;
-		width: max(91vw,25rem);
-		height: max(90vh,50rem);
-		border-radius: 2.5rem;
-		background-color: #282C34;
-	}
-
-	#text{
-		display: inline-block;
-		padding-top:10vw;
-		padding-left: 13%;
-		width:100vw;
-		position:relative;
-
-	}
-
-	h1{
-		font-size:7rem;
-	}
-	
-	p{
-		font-size:3rem;
-	}
-
-	#img{
-		width:20rem;
-		border-radius: 2.5rem;
-		position:relative;
-		top:15vh;
-		left:10vw;
-	}
-
+@keyframes opas1{
+  
 }
